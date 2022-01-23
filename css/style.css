@@ -106,8 +106,14 @@ product area
     background-color: #F4F4F4;
     padding: 20px 0;
 }
+  
+/* footer area  */
+.footer-content{
+    margin-top: 50px;
+background-color: #FFF2F1;
 
-
+padding: 180px 270px;
+}
 /* ===================
 responsive area 
 ======== */
