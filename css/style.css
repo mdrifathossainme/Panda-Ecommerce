@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+.form-control{
+    width:350px
+}
+.item-1{
+    background-color: #FEEAE9;
+    border-radius: 10px;
+    
+}
+.carousel-title h1{
+    font-family: 'Mochiy Pop One', sans-serif; font-size:46px;
+    margin-bottom: 20px;
+}
+.caro1{
+    padding: 68px 46px;
+    
+}
+.caro1 h2{
+    color: #FF136F;
+    font-size: 41px;
+    font-family: 'Mochiy Pop One', sans-serif; 
+
+}
+.card-body h4{
+color: #FF136F;
+    font-size: 25px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.btn-ow{
+    margin: 20px 0;
+    padding: 0;
+}
+.btn-ow a{
+    text-decoration: none;
+    background-color: #FF136F;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #FF136F;
+    transition: .2s ease-in-out;
+}
+.btn-ow a:hover{
+    background-color: transparent;
+    border: 1px solid #FF136F;
+    color: #FF136F;
+}
+.tv img{
+    width: 80%;
+    padding: 20px 0;
+}
+.carousel-container-my{
+    margin-top: 63px;
+}
+
+/* =================
+    header area end 
+====================== */
+
+/* ========================
+     ategories area start
+     =================  */
+
+ .categories-title h1 , .shoes-title h1{
+   color: #1F1F1F;
+    font-size: 36px;
+    font-family: 'Mochiy Pop One', sans-serif; font-size:36px;
+    margin-top: 64px;
+    margin-bottom: 24px;
+}
+.categories-item-1{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    padding: 33px 26px;
+    border-radius: 15px;
+}
+.categories-item-2{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    padding: 33px 26px;
+    border-radius: 15px;
+}
+.categories-item-3{
+  background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+    padding: 33px 26px;
+    border-radius: 15px;
+}
+
+
+
+
+.categories-name h3{
+    color: #fff;
+    font-size: 36px;
+}
+/* ===================
+categories area end =
+================== */
+
+/* =============
+product area 
+============== */
+.product{
+    background-color: #F4F4F4;
+    padding: 20px 0;
+}
+
+
+/* ===================
+responsive area 
+======== */
+@media only screen and (max-width: 850px) {
+    .form-control{
+       
+        width: 100%;
+    }
+    form {
+         margin-top: 20px;
+    }
+    .carousel-container-my{
+        margin-top: 0px;
+    }
+ .caro1 p{
+     display: none;
+
+ }
+ #fast-item{
+     order: ;
+ }
+}
