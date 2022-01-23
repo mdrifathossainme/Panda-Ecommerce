@@ -120,7 +120,7 @@ responsive area
 @media only screen and (max-width: 850px) {
     .form-control{
        
-        width: 100%;
+        width: 80%;
     }
     form {
          margin-top: 20px;
@@ -134,5 +134,11 @@ responsive area
  }
  #fast-item{
      order: ;
+ }
+ .footer-content{
+     padding: 50px  10px;
+ }
+ .product{
+     padding-left: 20px;
  }
 }
